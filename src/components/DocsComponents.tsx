@@ -115,10 +115,10 @@ export function DiscordRoleMention({ children, color, textColor }: { children: s
 
 	return (
 		<span
-			className="rounded bg-[color-mix(in_srgb,var(--role-color)_25%,transparent)] px-0.5 font-medium text-base/[1.35rem] transition-colors hover:bg-[color-mix(in_srgb,var(--role-color)_44%,transparent)]"
+			className="inline-block whitespace-nowrap rounded bg-[color-mix(in_srgb,var(--role-color)_25%,transparent)] px-0.5 align-baseline font-medium text-base/[1.35rem] transition-colors hover:bg-[color-mix(in_srgb,var(--role-color)_44%,transparent)]"
 			style={style}
 		>
-			{children}
+			{children.trim()}
 		</span>
 	);
 }
