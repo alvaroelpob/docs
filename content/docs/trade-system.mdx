@@ -22,7 +22,7 @@ These rules apply to every transaction handled through AutoPlus escrow.
 
 ## Creating a trade [#creating-a-trade]
 
-There are two ways to start an AutoPlus trade. The first way is to go to the <DiscordChannelMention>escrow</DiscordChannelMention> channel and use the message dropdown which lets you select the cryptocurrency of the deal After the crypto is selected, AutoPlus creates the trade flow inside a private thread. The second way is to use the `/trade <user> <cryptocurrency>` slash command. In which `<user>` is the other party in the deal, and `<cryptocurrency>` is the cryptocurrency used for the trade.
+There are two ways to start an AutoPlus trade. The first way is to go to the <DiscordChannelMention>escrow</DiscordChannelMention> channel and use the message dropdown to select the cryptocurrency of the deal. After the crypto is selected, AutoPlus creates the trade flow inside a private thread. The second way is to use the `/trade <user> <cryptocurrency>` slash command, where `<user>` is the other party in the deal and `<cryptocurrency>` is the cryptocurrency used for the trade.
 
 ## Supported cryptocurrencies [#supported-cryptocurrencies]
 
@@ -69,7 +69,7 @@ Once the transaction is detected, AutoPlus shows the transaction as **Confirming
 
 ## Transaction not detected [#transaction-not-detected]
 
-If the Sender sent the funds but they aren't detected, the **Sender** can use the button `Transaction not detected` which will ask for the transaction ID and it will fetch it.
+If the Sender sent the funds but they aren't detected, the **Sender** can use the `Transaction not detected` button. AutoPlus will ask for the transaction ID and look it up.
 
 ## Funds received [#funds-received]
 
@@ -91,12 +91,12 @@ Only the **Receiver** can return funds. Returning is used when the deal should n
 
 ## Reducing the trade amount [#reducing-the-trade-amount]
 
-Reduce amount can be started by both parties. It is used when both users agree that the **Receiver** should receive less than the original escrowed amount. The user selects a new reduced amount, and both parties must agree to the new amount before it is applied. Part of the escrowed funds are returned to the **Sender**, and the trade continues with the reduced amount.
+Reduce amount can be started by both parties. It is used when both users agree that the **Receiver** should receive less than the original escrowed amount. The user selects a new reduced amount, and both parties must agree to the new amount before it is applied. The difference is returned to the **Sender**, and the trade continues with the reduced amount.
 
 ## Asking for support [#asking-for-support]
 
-Both parties can ask for support. Staff gets pinged and involved in the thread, then may review the trade, ask for clarification, and help resolve the issue. After clarification, funds may be force released or force returned depending on the outcome.
+Both parties can ask for support. Staff are pinged and join the thread, where they may review the trade, ask for clarification, and help resolve the issue. After clarification, funds may be force released or force returned depending on the outcome.
 
 ## Trade completed [#trade-completed]
 
-After funds are released or returned both of the parties will get a transcript of the trade in their DMs. Your deal will appear on the <DiscordChannelMention>transactions</DiscordChannelMention>, you can hide your username by using the `/settings` command clicking the `Toggle anonymity` button.
+After funds are released or returned, both parties receive a transcript of the trade in their DMs. Your deal will appear in the <DiscordChannelMention>transactions</DiscordChannelMention> channel. To hide your username there, use the `/settings` command and click the `Toggle anonymity` button.
